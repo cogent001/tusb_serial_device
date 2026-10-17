@@ -1,0 +1,36 @@
+# ESP-IDF build output
+build/
+build_*/
+
+# Auto-generated sdkconfig backup (created whenever sdkconfig changes)
+sdkconfig.old
+
+# ESP-IDF managed components / dependency lock
+managed_components/
+dependencies.lock
+
+# Compiled objects / binaries (in case they appear outside build/)
+*.o
+*.obj
+*.elf
+*.bin
+*.map
+*.a
+*.d
+
+# CMake generated files (in case they appear outside build/)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+*.swp
+*~
